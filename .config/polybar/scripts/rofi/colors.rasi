@@ -1,0 +1,7 @@
+* {
+  al:    #0e0e0e;
+  bg:    #263238FF;
+  ac:    #DFDFDF;
+  se:    #00BCD426;
+  fg:    #DFDFDFFF;
+}
