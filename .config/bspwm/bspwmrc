@@ -2,12 +2,10 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor HDMI-1 -d I II III
+bspc monitor HDMI-1 -d I II III VI V
 bspc monitor eDP-1 -d I II III VI V
 
-bspc config -m HDMI-1 top_padding 13
-bspc config -m HDMI-1 left_padding 9
-bspc config -m HDMI-1 right_padding 9
+bspc config -m HDMI-1 left_padding 8
 
 bspc config border_width         2
 bspc config window_gap           0
