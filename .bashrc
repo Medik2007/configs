@@ -6,6 +6,8 @@
 [[ $- != *i* ]] && return
 
 alias nv='nvim'
+alias bk='python ~/run/backup.py'
+alias op='python ~/run/open.py'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='\W> '
