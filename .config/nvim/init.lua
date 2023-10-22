@@ -43,7 +43,7 @@ require("lazy").setup({
 
 require("nvim-tree").setup()
 require('lualine').setup()
-require'nvim-treesitter.configs'.setup {ensure_installed = { "c", "lua", "python", "javascript", "html", "css" },  highlight = {enable = true}}
+require'nvim-treesitter.configs'.setup {ensure_installed = { "c", "lua", "python", "javascript", "html", "css", },  highlight = {enable = true}}
 require('nvim-ts-autotag').setup()
 require('nvim-autopairs').setup()
 
