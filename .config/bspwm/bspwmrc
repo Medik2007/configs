@@ -1,11 +1,16 @@
 #! /bin/sh
 
-
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor HDMI-1 -d 1 2 3 4 5
-bspc monitor eDP-1 -d 6 7 8 9 0
 
+hdmi=$(xrandr |grep ' connected' |grep 'HDMI' |awk '{print $1}')
+
+[[ -z "$hdmi" ]] &&
+bspc monitor eDP-1 -d 1 2 3 4 5
+
+[[ ! -z "$hdmi" ]] &&
+bspc monitor HDMI-1 -d 1 2 3 4 5 &&
+bspc monitor eDP-1 -d 6 7 8 9 10 &&
 bspc config -m HDMI-1 left_padding 8
 
 bspc config border_width         2
