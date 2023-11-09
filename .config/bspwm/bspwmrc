@@ -24,6 +24,6 @@ bspc config single_monocle       true
 bspc config normal_border_color '#010713'
 bspc config focused_border_color '#222632'
 
-feh --bg-scale ~/.config/bspwm/wallpaper-2.png &
+feh --bg-scale ~/.config/bspwm/wallpaper-3.png &
 setxkbmap -layout 'us,ru' -option 'grp:caps_toggle' &
 bash ~/.config/polybar/launch.sh &
