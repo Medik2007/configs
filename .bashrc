@@ -6,6 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias nv='nvim'
+alias f='fuck'
 alias bk='python ~/run/backup.py'
 alias op='python ~/run/open.py -t'
 alias py='python'
