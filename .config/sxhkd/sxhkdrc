@@ -31,7 +31,7 @@ shift + super + s
     
 # Full screen
 shift + super + f
-	scrot "$HOME/stf/img/scr/%Y-%m-%d-%H-%M.png"
+	scrot "$HOME/stf/Pics/%Y-%m-%d-%H-%M.png"
 
 #
 # System Controls
