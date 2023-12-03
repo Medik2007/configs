@@ -26,10 +26,12 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-    "nvim-neo-tree/neo-tree.nvim",
+    'nvim-telescope/telescope.nvim',
     "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons",
     "MunifTanjim/nui.nvim",
+    "nvim-neo-tree/neo-tree.nvim",
+    'goolord/alpha-nvim',
 
     "nvim-lualine/lualine.nvim",
     "folke/tokyonight.nvim",
@@ -46,7 +48,6 @@ require("lazy").setup({
 	'hrsh7th/nvim-cmp',
 	'hrsh7th/cmp-vsnip',
 	'hrsh7th/vim-vsnip',
-
 })
 
 
