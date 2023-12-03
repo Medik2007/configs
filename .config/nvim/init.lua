@@ -49,6 +49,9 @@ require("lazy").setup({
 
 })
 
-require("modules")
-require("keymaps")
-require("lsp")
+
+PATH = "/home/medik/.config/nvim/"
+dofile(PATH.."modules.lua")
+dofile(PATH.."lsp.lua")
+dofile(PATH.."scripts.lua")
+dofile(PATH.."keymaps.lua")
