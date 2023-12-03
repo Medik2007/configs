@@ -33,7 +33,10 @@ require("lazy").setup({
     "nvim-neo-tree/neo-tree.nvim",
     'goolord/alpha-nvim',
 
+    'preservim/tagbar',
+
     "nvim-lualine/lualine.nvim",
+    "echasnovski/mini.animate",
     "folke/tokyonight.nvim",
     "nvim-treesitter/nvim-treesitter",
 	"windwp/nvim-autopairs",
