@@ -20,3 +20,6 @@ vim.keymap.set('n', '<a-f>h', builtin.help_tags, {})
 
 -- Tagbar
 vim.keymap.set('n', '<c-t>', ':TagbarToggle<CR>', { noremap = true, silent = true })
+
+-- Markdown
+vim.keymap.set('n', '<c-m>', ':MarkdownPreview<CR>', { noremap = true, silent = true })
