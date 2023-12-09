@@ -23,3 +23,6 @@ vim.keymap.set('n', '<c-t>', ':TagbarToggle<CR>', { noremap = true, silent = tru
 
 -- Markdown
 vim.keymap.set('n', '<c-m>', ':MarkdownPreview<CR>', { noremap = true, silent = true })
+
+-- Other
+vim.keymap.set('n', '<c-n>', ':noh<CR>', { noremap = true, silent = true })
