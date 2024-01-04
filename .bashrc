@@ -12,7 +12,7 @@ alias fish='asciiquarium'
 alias rick='~/run/rick.sh'
 alias bk='python ~/run/backup.py'
 alias op='python ~/run/open.py -t'
-alias py='python'
+alias act='source bin/activate'
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
