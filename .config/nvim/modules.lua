@@ -3,11 +3,11 @@ require('nvim-autopairs').setup()
 require('mini.animate').setup()
 
 require('nvim-ts-autotag').setup({
-    filetypes = { "html" , "xml" , "htmldjango" }
+    filetypes = { "html" , "xml" , "htmldjango" },
 })
 
 require('nvim-treesitter.configs').setup {
-    ensure_installed = { "c", "lua", "python", "javascript", "html", "css", "htmldjango"},
+    ensure_installed = { "c", "lua", "python", "javascript", "html", "css", "htmldjango", "cpp" },
     highlight = {enable = true}
 }
 

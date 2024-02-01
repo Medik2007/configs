@@ -11,6 +11,7 @@ vim.cmd('set smarttab')
 vim.cmd('set softtabstop=4')
 vim.cmd('set encoding=UTF-8')
 vim.cmd('set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz')
+vim.cmd('au BufRead,BufNewFile *.html set filetype=html')
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
