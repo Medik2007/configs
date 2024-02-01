@@ -28,6 +28,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
     'nvim-telescope/telescope.nvim',
+    'akinsho/toggleterm.nvim',
     "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons",
     "MunifTanjim/nui.nvim",

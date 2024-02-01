@@ -1,6 +1,7 @@
 require('lualine').setup()
 require('nvim-autopairs').setup()
 require('mini.animate').setup()
+require("toggleterm").setup()
 
 require('nvim-ts-autotag').setup({
     filetypes = { "html" , "xml" , "htmldjango" },
