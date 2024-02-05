@@ -13,6 +13,7 @@ alias rick='~/run/rick.sh'
 alias bk='python ~/run/backup.py'
 alias op='python ~/run/open.py -t'
 alias act='source bin/activate'
+alias lil='ssh medik@192.168.1.101'
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
